@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!--tailwind cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--external css-->
+    <link rel="stylesheet" href="lesson2/style.css">
+</head>
+
+<body>
+    <h1
+        class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-3x1 font-bold text-center text-white py-5 mb-5">
+        Tailwind CSS</h1>
+    <section id="sample">
+        <div class="grid grid-cols-2">
+            <div class="grid gap-2 bg-green-300 to-yellow-200">
+                <div>lorem</div>
+                <div>lorem</div>
+            </div>
+            <div class="grid gap-2 bg-gradient-to-r from-yellow-200 to-green-300 lg:bg-violet-500">
+                <div>Ipsum</div>
+                <div>Ipsum</div>
+            </div>
+        </div>
+    </section>
+    <section id="sample2">
+        <div class="grid md:grid-cols-2">
+            <div class="grid gap-2 bg-green-300 to-yellow-200">
+                <div>lorem</div>
+                <div>lorem</div>
+            </div>
+            <div class="grid gap-2 bg-gradient-to-r from-yellow-200 to-green-300 lg:bg-violet-500">
+                <div>Ipsum</div>
+                <div>Ipsum</div>
+            </div>
+        </div>
+    </section>
+<section id="inspiration">
+    <h1 class="text-center text-2x1 my-5">Inspiration Page</h1>
+    <div class="grid grid-cols4 gap-4">
+
+        <div class="grid gap-4">
+            <div>
+            <img src="https://unsplash.it/400/300" alt="" class="h-auto max-w-full rounded-lg"></div>
+    </div>
+    <div>
+        <img src="https://unsplash.it/400/200" alt="" class="h-auto max-w-full rounded-lg"></div>
+        <div>
+            <img src="https://unsplash.it/400/100" alt="" class="h-auto max-w-full rounded-lg"></div>
+</section>
+
+</body>
+
+</html>
